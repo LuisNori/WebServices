@@ -1,0 +1,3 @@
+-La base de datos esta en mysql.
+-Es un proyecto en java elaborado en eclipse.
+-Se utilizo Ajax con JS para la elaboracion del WebService JS

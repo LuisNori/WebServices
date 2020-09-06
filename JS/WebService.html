@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js'></script>
+		<script languaje="javascript" src="js/Consulta.js"></script>
+		<link rel="stylesheet" href="css/style.css"/>
+	</head>
+	<body>
+		<center>
+			<table>
+				<tr>
+					<td><center>Dolar</center></td>
+					<td><center>Euro</center></td>
+					<td><center>Libra Esterlina</center></td>
+				</tr>
+				<tr>
+					<td>
+						<center>
+							<img id="img_dolar" src="img/dolar.jpg"/>
+						</center>
+					</td>
+					<td>
+						<center>
+							<img id="img_euro" src="img/euro.jpg"/>
+						</center>
+					</td>
+					<td>
+						<center>
+							<img id="img_libra" src="img/libra.png"/>
+						</center>
+					</td>
+				</tr>
+				<tr>
+					<td><center><input type="button" onclick="consultar('cdolar');" value="Consulta"></center></td>
+					<td><center><input type="button" onclick="consultar('ceuro');" value="Consulta"></center></td>
+					<td><center><input type="button" onclick="consultar('clibra');" value="Consulta"></center></td>
+				</tr>
+				<tr>
+					<td><center><label id = "cdolar"></label> MXN</center></td>
+					<td><center><label id = "ceuro"></label> MXN</center></td>
+					<td><center><label id = "clibra"></label> MXN</center></td>
+				</tr>
+			</table>
+		</center>
+	</body>
+</html>

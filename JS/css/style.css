@@ -1,0 +1,20 @@
+table, th, td {
+  border: 1px solid black;
+}
+table{
+	width: 60%;
+	align-content: center;
+	align-items: center;
+}
+#img_dolar{
+	width: 120px;
+	height: 60px;
+}
+#img_euro{
+	width: 60px;
+	height: 60px;
+}
+#img_libra{
+	width: 60px;
+	height: 60px;
+}
